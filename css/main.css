@@ -85,10 +85,14 @@ header button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   background: url("./../img/bg-image.jpg") no-repeat;
   background-position: top;
   background-size: 100%;
   padding: 80px 35px 0 35px;
+  min-height: 90vh;
 }
 
 .call-to-action-container {
@@ -101,7 +105,6 @@ header button {
   margin-right: auto;
   margin-left: 0;
   margin-top: 5%;
-  height: auto;
   max-width: 632px;
 }
 
@@ -182,6 +185,7 @@ header button {
 }
 
 .franchise {
+  margin-top: -80px;
   height: 60px;
 }
 
