@@ -1,0 +1,98 @@
+footer {
+  padding: 26px 8px;
+  position: relative;
+  text-align: center;
+  color: $color-grey;
+
+  img {
+    width: 80px;
+    margin-bottom: 4px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 6px;
+    font-size: 12px;
+    line-height: 1.5;
+    
+    a {
+      padding: 8px 12px;
+      text-decoration: none;
+      color: $color-grey;
+    }
+  }
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+
+  label {
+    position: relative;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    opacity: 0;
+    z-index: -1;
+  }
+
+  #language-selector {
+    padding: 0 26px;
+    border: none;
+    display: inline-block;
+    height: 34px;
+    background-color: transparent;
+    color: $color-grey;
+    cursor: pointer;
+    text-align: center;
+    text-align-last: center;
+    appearance: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .globe {
+    pointer-events: none;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 2px;
+    top: 46%;
+    width: 18px;
+    font-size: 12px;
+    // fill: $color-grey;
+  }
+
+  .down {
+    right: 2px;
+    top: 47%;
+    width: 22px;
+    pointer-events: none;
+    position: absolute;
+    transform: translateY(-50%);
+    fill: $color-grey;
+  }
+}
+
+.cls-1 {
+  fill: $color-grey;
+}
+
+.globe .cls-2 {
+  fill: none;
+  stroke: $color-grey;
+  stroke-miterlimit: 10;
+  stroke-width: 33px;
+}
+
+.copyright {
+  margin-bottom: 24px;
+  font-size: 12px;
+}
+
+.disclaimer {
+  font-size: 12px;
+  margin-bottom: 16px;
+}

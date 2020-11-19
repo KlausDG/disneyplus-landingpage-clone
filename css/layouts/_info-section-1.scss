@@ -1,0 +1,33 @@
+.info-1 {
+  padding: 50px 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1440px;
+  margin: 0 auto;
+
+  img {
+    flex: 1 1 auto;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 0 0 auto;
+    width: 45%;
+    margin-top: 20px;
+    padding: 0 4%;
+
+    h3 {
+      margin-bottom: 24px;
+    }
+
+    p {
+      margin-bottom: 24px;
+      color: $color-grey;
+      font-size: 17px;
+      line-height: 1.7;
+    }
+  }
+}

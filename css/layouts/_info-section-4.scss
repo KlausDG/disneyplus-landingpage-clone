@@ -1,0 +1,33 @@
+.info-4 {
+  padding: 50px 35px;
+  text-align: center;
+
+  h3 {
+    margin-bottom: 24px;
+  }
+}
+
+.devices {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+
+  &-item {
+    flex-direction: column;
+    img {
+      width: 100%;
+    }
+
+    h5 {
+      margin: 24px 0;
+      font-size: 22px;
+    }
+
+    ul li {
+      color: $color-grey;
+      margin-bottom: 4px;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+  }
+}

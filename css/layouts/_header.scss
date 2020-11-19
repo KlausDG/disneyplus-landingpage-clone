@@ -1,0 +1,22 @@
+header {
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  top: 0;
+  width: 100%;
+  height: 70px;
+
+  button {
+    margin-right: 36px;
+    padding: 8px 16px;
+    text-transform: uppercase;
+    border: 1px solid $color-white;
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    border-radius: 4px;
+    color: $color-white;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+  }
+}

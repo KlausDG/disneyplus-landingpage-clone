@@ -1,0 +1,29 @@
+.info-2 {
+  padding: 50px 35px;
+  text-align: center;
+
+  h3 {
+    margin-bottom: 24px;
+  }
+
+  p {
+    color: $color-grey;
+    font-size: 18px;
+    margin-bottom: 24px;
+  }
+}
+
+.items-contaier {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 -12px;
+
+  img {
+    width: 33.3%;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+}
